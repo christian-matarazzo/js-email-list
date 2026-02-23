@@ -13,7 +13,7 @@ function regenNumbers() { /* make a function to reuse on button */
 /* add empty array */
 let generateEmail = []
 orderedListEl.innerText = "" /* flush away when button go pressed */
-for (i = 0; i < 10; i++)
+for (let i = 0; i < 10; i++)
     fetch("https://flynn.boolean.careers/exercises/api/random/mail")
         .then(emails => emails.json())
         .then(email => {
@@ -39,10 +39,9 @@ for (i = 0; i < 10; i++)
         })
 }
 
-regenNumbers()
-
 regenButtonEl.addEventListener('click', function(){
 
+orderedListEl.classList.remove('d-none')
 regenNumbers()
 
 })
