@@ -1,0 +1,45 @@
+body {
+
+    background-color: rgb(2, 2, 12);
+}
+
+.random-container {
+    color: white;
+
+
+    text-align: center;
+    padding: 24px;
+
+
+}
+
+#random-list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #359874;
+    padding: 40px 30px;
+    list-style-position: inside;
+    border-radius: 50px;
+    color: white;
+}
+
+#random-list li {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#new-mails {
+    display: block;
+    background-color: #359874;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 8px;
+}
